@@ -3,25 +3,28 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ProductCard from './ProductCard';
+import image1 from './assets/image1.png';
+import image2 from './assets/image2.png';
+import image3 from './assets/image3.png';
 
 const App = () => {
   const products = [
     {
       productName: 'Wireless Headphones',
       price: 99.99,
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: image1,
       onSale: true,
     },
     {
       productName: 'Bluetooth Speaker',
       price: 49.99,
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: image2,
       onSale: false,
     },
     {
       productName: 'Smartwatch',
       price: 199.99,
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: image3,
       onSale: true,
     },
   ];
